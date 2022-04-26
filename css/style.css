@@ -30,24 +30,23 @@ h1{
 }
 
 .columns{ 
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 .col{
     background-color: #0f0e17;
     color: white;
     float: left;
-    width: calc(100% / 3);
-    margin-top: 20px;
+    width: 30%;
+    margin: 20px 10px;
+    
     
 }
 img{
     float: left;
-    width: 70px;
+    width: 80px;
     margin-right: 10px;
-}
-
-.card{
+    
     
 }
 /* SECTIONS */
@@ -61,3 +60,6 @@ img{
     color: aqua;
 }
 
+.content{
+    padding-top: 5px; 
+}
