@@ -14,8 +14,7 @@ body{
 .container {
     width: 70%;
     margin: auto;
-    background-color: aqua;
-   
+
 }
 
 .clearfix::after{
@@ -25,27 +24,40 @@ body{
 }
 
 h1{
-    background-color: cadetblue;
     color: #e53170;
     text-align: center;
     margin-top: 20px;
 }
 
-.columns{
+.columns{ 
     padding: 10px 0;
 }
 
 .col{
-    background-color: lightcoral;
-    float: right;
+    background-color: #0f0e17;
+    color: white;
+    float: left;
     width: calc(100% / 3);
-    margin-top: 15px;
-
+    margin-top: 20px;
+    
+}
+img{
+    float: left;
+    width: 70px;
+    margin-right: 10px;
 }
 
+.card{
+    
+}
 /* SECTIONS */
 
 .sub-title{
     text-align: center;
     margin: 20px 0;
 }
+
+.email{
+    color: aqua;
+}
+
