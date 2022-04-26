@@ -10,3 +10,42 @@
 body{
     font-family: 'Fredoka', sans-serif;
 }
+
+.container {
+    width: 70%;
+    margin: auto;
+    background-color: aqua;
+   
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1{
+    background-color: cadetblue;
+    color: #e53170;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.columns{
+    padding: 10px 0;
+}
+
+.col{
+    background-color: lightcoral;
+    float: right;
+    width: calc(100% / 3);
+    margin-top: 15px;
+
+}
+
+/* SECTIONS */
+
+.sub-title{
+    text-align: center;
+    margin: 20px 0;
+}
